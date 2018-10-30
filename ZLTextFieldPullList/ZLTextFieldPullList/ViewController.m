@@ -21,7 +21,7 @@
     _textFieldList.placeholder = @"请选择数据";
     _textFieldList.borderStyle = UITextBorderStyleLine;
     _textFieldList.listDelegate = self;
-    _textFieldList.allData = @[@"测试1",@"测试2",@"测试3"];
+    _textFieldList.allData = @[@"测试1",@"测试2",@"测试3",@"测试4",@"测试5"];
     [self.view addSubview:_textFieldList];
     // Do any additional setup after loading the view, typically from a nib.
 }
